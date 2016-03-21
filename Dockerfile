@@ -1,3 +1,4 @@
+#test Docker nodejs app.
 FROM node:argon
 
 # Create app directory
