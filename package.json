@@ -5,13 +5,16 @@
   "author": "Nacho Beeswax",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test-jenkins": "JUNIT_REPORT_PATH=/report.xml mocha --colors --reporter mocha-jenkins-reporter"
   },
   "dependencies": {
     "express": "^4.13.3",
     "mocha":"3.4.1",
+    "mocha-jenkins-reporter": "0.3.8",
     "supertest": "3.0.0",
     "should":"11.2.1"
   }
+  
 }
 
