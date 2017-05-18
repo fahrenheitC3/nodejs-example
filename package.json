@@ -8,6 +8,10 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "mocha":"3.4.1",
+    "supertest": "3.0.0",
+    "should":"11.2.1"
   }
 }
+
